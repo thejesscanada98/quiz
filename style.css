@@ -37,3 +37,10 @@ body.wrong {
     padding: 10px;
     box-shadow: 0 0 15px 3px;
 }
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 15px 0;
+}
